@@ -6,7 +6,7 @@
 ## Original Data
 
 <img src="Readme Pics/Pic 1.png" width="1000" height="300">
-<img src="Readme Pics/Pic 2.png" width="900" height="500">
+<img src="Readme Pics/Pic 2.png" width="700" height="300">
 <br>
 
 
