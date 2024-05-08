@@ -5,6 +5,8 @@
 
 ## Original Data
 
+In this Crypto Clustering, we were tasked to use Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.  This assignment was accomplished by completing a K-Means and PCA analysis and comparing the results for any output differences.  The original data was provided in a .csv file labeled crypto_market_data and was read into a data frame for analysis.  The initial data frame output and line graph representing the data can be seen below.     
+
 <img src="Readme Pics/Pic 1.png" width="1000" height="300">
 <img src="Readme Pics/Pic 2.png" width="800" height="400">
 <br>
