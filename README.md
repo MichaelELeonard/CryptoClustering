@@ -1,13 +1,13 @@
 # Week 19 Challenge - Crypto Clustering
 
-<img src="Readme Pics/Opening Pic.png" width="700" height="700">
+<img src="Readme Pics/Opening Pic.png" width="1000" height="500">
 
 
 ## Crypto Clustering with K-MEANS
 
-<img src="Readme Pics/Pic 1.png" width="700" height="500">
+<img src="Readme Pics/Pic 1.png" width="400" height="200">
 <img src="Readme Pics/Pic 2.png" width="700" height="500">
-<img src="Readme Pics/Pic 3.png" width="700" height="500">
+<img src="Readme Pics/Pic 3.png" width="400" height="200">
 <img src="Readme Pics/Pic 4.png" width="700" height="500">
 <img src="Readme Pics/Pic 5.png" width="700" height="500">
 <img src="Readme Pics/Pic 6.png" width="700" height="500">
