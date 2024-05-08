@@ -20,24 +20,6 @@
 
 
 
-
-
-
-
-
-
-
-<br>
-
-## Background
-
-      
-
-<br>
-
-## Data Preparation
-
-
 <br>
 
 ## Crypto Clustering with PCA 
@@ -46,10 +28,6 @@
 <img src="Readme Pics/PCA Pic 2.png" width="700" height="300">
 <img src="Readme Pics/PCA Pic 3.png" width="500" height="300">
 <img src="Readme Pics/PCA Pic 4.png" width="700" height="300">
-
-
-
-
 
 
 
@@ -66,4 +44,6 @@
 <img src="Readme Pics/Compare Pic 1.png" width="1000" height="300">
 <img src="Readme Pics/Compare Pic 2.png" width="1000" height="300">
 
+
+<br>
 ## Conclusion
