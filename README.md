@@ -58,7 +58,7 @@
 
 <br>
 
-<img src="Readme Pics/Compare Pic 1.png" width="700" height="300">
-<img src="Readme Pics/Compare Pic 2.png" width="700" height="300">
+<img src="Readme Pics/Compare Pic 1.png" width="1000" height="300">
+<img src="Readme Pics/Compare Pic 2.png" width="1000" height="300">
 
 ## Conclusion
