@@ -45,5 +45,5 @@
 <img src="Readme Pics/Compare Pic 2.png" width="1000" height="300">
 
 
-<br>
+
 ## Conclusion
