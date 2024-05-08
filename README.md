@@ -15,6 +15,9 @@ In this Crypto Clustering, we were tasked to use Python and unsupervised learnin
 
 ## Crypto Clustering with K-MEANS
 <br>
+To start the analysis, the data needed to be scaled to ensure that the scale size of the data was consistent throughout the data set.  This task was accomplished by using StandardScaler that is available in the scikit-learn library.  An example of the scaled data can be seen below.   
+
+<br>
 <img src="Readme Pics/Pic 3.png" width="1000" height="200">
 <img src="Readme Pics/Pic 4.png" width="700" height="300">
 <img src="Readme Pics/Pic 5.png" width="1000" height="200">
