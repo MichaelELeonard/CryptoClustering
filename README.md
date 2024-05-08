@@ -5,7 +5,7 @@
 
 ## Crypto Clustering with K-MEANS
 
-<img src="Readme Pics/Pic 1.png" width="400" height="200">
+<img src="Readme Pics/Pic 1.png" width="1000" height="400">
 <img src="Readme Pics/Pic 2.png" width="700" height="500">
 <img src="Readme Pics/Pic 3.png" width="400" height="200">
 <img src="Readme Pics/Pic 4.png" width="700" height="500">
