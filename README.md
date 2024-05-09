@@ -19,8 +19,14 @@ To start the analysis, the data needed to be scaled to ensure that the scale siz
 
 <br>
 <img src="Readme Pics/Pic 3.png" width="1000" height="200">
+
+Next, the best value for K needed to be calculated.  This was accomplished setting up a list of incrementing numbers up to ten and setting an empty list to hold the inertia values.  A for loop was then set up to process through the cluster options, fit the model to the scaled data and append the inertia values to the inertia list.  This data was then entered into a data frame and plotted into an elbow curve to identify the best value for K which ended up being 4.    
+<br>
 <img src="Readme Pics/Pic 4.png" width="700" height="300">
 <img src="Readme Pics/Pic 5.png" width="1000" height="200">
+
+
+
 <img src="Readme Pics/Pic 6.png" width="700" height="300">
 
 
