@@ -24,7 +24,7 @@ Next, the best value for K needed to be calculated.  This was accomplished setti
 <br>
 <img src="Readme Pics/Pic 4.png" width="700" height="300">
 
-The model was set up using the optimal four clusters, the model was fit to the original scaled data, the model was used to predict the crypto clusters and the information was added to a copy of the original scaled data frame.  The information was then red into a scatter plot to show the results.  The results examined crypto currency the 24-hour percentage change price to the 7-day percentage.  The results showed a reasonable correlation between clusters 0, 1, and 2, with cluster 3 appearing more volatile with a negative five percent change over a 24-hour period and a zero percent change over the 7-day percentage, placing it far the left of the other clusters.        
+The model was set up using the optimal four clusters, the model was fit to the original scaled data, the model was used to predict the crypto clusters and the information was added to a copy as a new column to the original scaled data frame.  The information was then red into a scatter plot to show the results.  The results examined crypto currency the 24-hour percentage change price to the 7-day percentage.  The results showed a reasonable correlation between clusters 0, 1, and 2, with cluster 3 appearing more volatile with a negative five percent change over a 24-hour period and a zero percent change over the 7-day percentage, placing it far the left of the other clusters.        
 <br>
 <img src="Readme Pics/Pic 5.png" width="1000" height="200">
 <img src="Readme Pics/Pic 6.png" width="700" height="300">
