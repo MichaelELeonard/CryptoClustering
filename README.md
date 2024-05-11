@@ -10,7 +10,7 @@ In the Crypto Clustering Challenge, we were tasked to use Python and unsupervise
 <br>
 <img src="Readme Pics/Pic 1.png" width="1000" height="300">
 <img src="Readme Pics/Pic 2.png" width="800" height="400">
-
+<br>
 
 
 ## Crypto Clustering with K-MEANS
@@ -21,7 +21,6 @@ To start the analysis, the data needed to be scaled to ensure consistency throug
 <img src="Readme Pics/Pic 3.png" width="1000" height="200">
 
 Next, the best value for K needed to be calculated.  This was accomplished setting up a list of incrementing numbers and creating an empty list to hold the inertia values.  A for-loop was set up to process through the cluster options, fit scaled model to the scaled data, and store the inertia values.  The data was entered into a data frame and plotted to an elbow curve to identify the best value for K.  the results identified the optimal value to K to be four.    
-
 <br>
 <img src="Readme Pics/Pic 4.png" width="700" height="300">
 
@@ -32,24 +31,22 @@ The model was set up using the optimal four clusters, fit to the original scaled
 <br>
 
 ## Crypto Clustering with PCA 
-For the PCA analysis, pca.fit _transform was used on the original scaled data to manipulate it into three principal components.  After checking the variance ratio for the newly aligned data, these three groups were shown to represent 89.5% of the variance of the data set.  The original crypto currency names was then added to the data frame which can be seen in the picture below.
+For the PCA analysis, pca.fit _transform was used on the original scaled data to manipulate it into three principal components.  After checking the variance ratio for the newly aligned data, these three groups were shown to represent 89.5% of the variance of the data set.  
 
 <br>
 <img src="Readme Pics/PCA Pic 1.png" width="400" height="200">
 
+<br>
+<img src="Readme Pics/PCA Pic 7.png" width="400" height="200">
 
-<img src="Readme Pics/PCA Pic 7.png" width="400" height="50">
+
+The best value for K for the PCA data, a list of integers one to ten and an empty list for the inertia values was initiated, a for-looping was used to cycle through the scaled PCA data, fit to the model to the scaled data, and store the inertia values. This data was then plotted into an elbow curve to identify the best value for K.  The ideal value for K was again identified as four.
 
 <br>
-The best value for K for the PCA data needed to be calculated. As seen previously, this was accomplished setting up a list of numbers from one to ten, creating an empty list for the inertia values, looping through the scaled PCA data, fitting to the model to the scaled data and storing the inertia values. This data was then plotted into an elbow curve to identify the best value for K.  The ideal value for K was again identified as four.
+<img src="Readme Pics/PCA Pic 2.png" width="700" height="300">
 
-<br>
 
-<imgsrc="Readme Pics/PCA Pic 2.png" width="700" height="300">
-
-<br>
-
-The crypto PCA clusters were then added to the PCA data frame, and the results were used to produce a scatter plot of the PCA data labeled PCA Scatter Plot.  
+The crypto PCA cluster ticker names were added to the PCA data frame, and the results were used to produce a scatter plot of the PCA scatter plot below.
 
 <br>
 <img src="Readme Pics/PCA Pic 3.png" width="400" height="200">
@@ -60,7 +57,7 @@ The crypto PCA clusters were then added to the PCA data frame, and the results w
 
 ## Results/Comparison
 
-When examining the two elbow curves, the results share common characteristics and both identified four as the optional number for K.    
+When examining the two elbow curves, the results share common characteristics, and both identified four as the optional number for K.    
 
 <br>
 
