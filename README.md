@@ -5,7 +5,7 @@
 
 ## Original Data
 
-In the Crypto Clustering Challenge, we were tasked to use Python and unsupervised learning to predict how cryptocurrencies will be affected by 24-hour or 7-day price changes.  This was accomplished by completing a K-Means and PCA analysis and to compare any differences in the results.  The original data was provided in a .csv file labeled crypto_market_data and was read into a data frame for analysis.  The initial data frame output and line graph representing the data can be seen below.     
+In the Crypto Clustering Challenge, we were tasked to use Python and unsupervised learning to predict how cryptocurrencies will be affected by 24-hour or 7-day price changes.  This was accomplished by completing a K-Means and PCA analysis and comparing the results.  The original data was provided in a .csv file labeled crypto_market_data and was imported to a data frame for analysis.  The initial data frame output and line graph representing the data can be seen below.     
 
 <br>
 <img src="Readme Pics/Pic 1.png" width="1000" height="300">
@@ -15,16 +15,16 @@ In the Crypto Clustering Challenge, we were tasked to use Python and unsupervise
 
 ## Crypto Clustering with K-MEANS
 
-To start the analysis, the data needed to be scaled to ensure that the data was consistent throughout the data set.  This task was accomplished by using StandardScaler which is available in the scikit-learn library.  An example of the scaled data can be seen below.   
+To start the analysis, the data needed to be scaled to ensure consistency throughout the data set.  This was accomplished by using StandardScaler which is available in the scikit-learn library.  An example of the scaled data can be seen below.   
 
 <br>
 <img src="Readme Pics/Pic 3.png" width="1000" height="200">
 
-Next, the best value for K needed to be calculated.  This was accomplished setting up a list of incrementing numbers and setting an empty list to hold the inertia values.  A for loop was then set up to process through the cluster options, fit the model to the scaled data, and append the inertia values to the inertia list.  This data was then entered into a data frame and plotted into an elbow curve to identify the best value for K which was identified as being four.    
+Next, the best value for K needed to be calculated.  This was accomplished setting up a list of incrementing numbers and creating an empty list to hold the inertia values.  A for-loop was set up to process through the cluster options, fit scaled model to the scaled data, and store the inertia values.  The data was entered into a data frame and plotted to an elbow curve to identify the best value for K.  the results identified the optimal value to K to be four.    
 <br>
 <img src="Readme Pics/Pic 4.png" width="700" height="300">
 
-The model was set up using the optimal four clusters, fit to the original scaled data, and was run to predict the crypto clusters.  Finally, the predicted cluster was added to a copy of the original scaled data frame.  A scatter plot was used to view the results.  The results showed a reasonable correlation between clusters 0, 1, and 2, with cluster 3 appearing more volatile with a negative five percent change over a 24-hour period and a zero percent change over the 7-day percentage, placing it far the left of the other clusters.        
+The model was set up using the optimal four clusters, fit to the original scaled data, and was run to predict the crypto clusters.  Finally, the predicted clusters were added to the data frame and a scatter plot was used to view the results.  The results showed a reasonable correlation between clusters 0, 1, and 2, with cluster 3 located far the left of the main cluster.        
 <br>
 <img src="Readme Pics/Pic 5.png" width="1000" height="200">
 <img src="Readme Pics/Pic 6.png" width="700" height="300">
