@@ -45,7 +45,7 @@ The best value for K for the PCA data needed to be calculated. As seen previousl
 
 <br>
 <img src="Readme Pics/PCA Pic 2.png" width="700" height="300">
-
+<br>
 
 The crypto PCA clusters were then added to the PCA data frame, and the results were used to produce a scatter plot of the PCA data labeled PCA Scatter Plot.  
 
