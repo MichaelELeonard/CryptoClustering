@@ -10,7 +10,7 @@ In the Crypto Clustering Challenge, we were tasked to use Python and unsupervise
 <br>
 <img src="Readme Pics/Pic 1.png" width="1000" height="300">
 <img src="Readme Pics/Pic 2.png" width="800" height="400">
-<br>
+
 
 
 ## Crypto Clustering with K-MEANS
