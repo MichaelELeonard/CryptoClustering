@@ -31,7 +31,7 @@ The model was set up using the optimal four clusters, the model was fit to the o
 <br>
 
 ## Crypto Clustering with PCA 
-For the PCA analysis, pca.fit _transform was used on the original scaled data to manipulate it into three principal components.  After checking the variance ratio for the newly aligned data, these three groups were shown to represent 89.5% of the variance of the data set.  Then original crypto currency was then acquired, and the information was placed in a data frame seen below. 
+For the PCA analysis, pca.fit _transform was used on the original scaled data to manipulate it into three principal components.  After checking the variance ratio for the newly aligned data, these three groups were shown to represent 89.5% of the variance of the data set.  The original crypto currency names were added to the data frame as can be seen in the picture below.
 
 <br>
 <img src="Readme Pics/PCA Pic 1.png" width="400" height="200">
