@@ -20,7 +20,7 @@ To start the analysis, the data needed to be scaled to ensure consistency throug
 <br>
 <img src="Readme Pics/Pic 3.png" width="1000" height="200">
 
-Next, the best value for K needed to be calculated.  This was accomplished setting up a list of incrementing numbers and creating an empty list to hold the inertia values.  A for-loop was set up to process through the cluster options, fit scaled model to the scaled data, and store the inertia values.  The data was entered into a data frame and plotted to an elbow curve to identify the best value for K.  the results identified the optimal value to K to be four.    
+Next, the best value for K needed to be calculated.  This was accomplished setting up a list of incrementing numbers and creating an empty list to hold the inertia values.  A for-loop was set up to process through the cluster options, fit scaled model to the scaled data, and store the inertia values.  The data was entered into a data frame and plotted to an elbow curve to identify the best value for K.  The results identified the optimal value to K to be four.    
 <br>
 <img src="Readme Pics/Pic 4.png" width="700" height="300">
 
