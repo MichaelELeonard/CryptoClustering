@@ -44,7 +44,7 @@ To identify the best value for K for the PCA data, an integer list and an empty 
 <img src="Readme Pics/PCA Pic 2.png" width="700" height="300">
 
 
-The cluster results were added to the PCA data frame and it was used to produce a scatter plot below.
+The cluster results were added to the PCA data frame and it was used to produce a scatter plot below.  In the PCA scatter plot cluster zero (blue) and cluster two (gold) are producing similar results while cluster one (red) and three (green) have been relocated to different areas on the graph. 
 
 <br>
 <img src="Readme Pics/PCA Pic 3.png" width="400" height="200">
