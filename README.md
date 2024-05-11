@@ -40,10 +40,12 @@ The best value for K for the PCA data needed to be calculated. As seen previousl
 
 <br>
 <img src="Readme Pics/PCA Pic 2.png" width="700" height="300">
-<br>
+
 
 
 The crtypto PCA clusters were then added to the PCA dataframe and the results were used to produce a scatter plot of rhw PCA data labeled PCA Scatter Plot.  
+
+<br>
 <img src="Readme Pics/PCA Pic 3.png" width="400" height="200">
 <img src="Readme Pics/PCA Pic 4.png" width="700" height="300">
 
