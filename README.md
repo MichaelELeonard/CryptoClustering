@@ -37,14 +37,16 @@ For the PCA analysis, pca.fit _transform was used on the original scaled data to
 <br>
 <img src="Readme Pics/PCA Pic 1.png" width="400" height="200">
 
-<br>
+
 <img src="Readme Pics/PCA Pic 7.png" width="400" height="50">
 
 <br>
 The best value for K for the PCA data needed to be calculated. As seen previously, this was accomplished setting up a list of numbers from one to ten, creating an empty list for the inertia values, looping through the scaled PCA data, fitting to the model to the scaled data and storing the inertia values. This data was then plotted into an elbow curve to identify the best value for K.  The ideal value for K was again identified as four.
 
 <br>
-<img src="Readme Pics/PCA Pic 2.png" width="700" height="300">
+
+<imgsrc="Readme Pics/PCA Pic 2.png" width="700" height="300">
+
 <br>
 
 The crypto PCA clusters were then added to the PCA data frame, and the results were used to produce a scatter plot of the PCA data labeled PCA Scatter Plot.  
