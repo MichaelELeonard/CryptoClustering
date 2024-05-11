@@ -37,7 +37,7 @@ For the PCA analysis, pca.fit _transform was used on the original scaled data to
 <img src="Readme Pics/PCA Pic 1.png" width="400" height="200">
 
 <br>
-<img src="Readme Pics/PCA Pic 7.png" width="400" height="100">
+<img src="Readme Pics/PCA Pic 7.png" width="400" height="50">
 
 
 The best value for K for the PCA data, a list of integers one to ten and an empty list for the inertia values was initiated, a for-looping was used to cycle through the scaled PCA data, fit to the model to the scaled data, and store the inertia values. This data was then plotted into an elbow curve to identify the best value for K.  The ideal value for K was again identified as four.
