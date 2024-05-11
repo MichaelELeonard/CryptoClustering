@@ -20,25 +20,25 @@ To start the analysis, the data needed to be scaled to ensure consistency throug
 <br>
 <img src="Readme Pics/Pic 3.png" width="1000" height="200">
 
-Next, the best value for K needed to be calculated.  This was accomplished setting up a list of incrementing numbers and creating an empty list to hold the inertia values.  A for-loop was set up to process through the cluster options, fit scaled model to the scaled data, and store the inertia values.  The data was entered into a data frame and plotted to an elbow curve to identify the best value for K.  The results identified the optimal value to K to be four.    
+Next, the best value for K needed to be calculated.  This was accomplished setting up a list of incrementing numbers and creating an empty list to hold the inertia values.  A for-loop was set up to process through the cluster options, fit the model to the scaled data, and store the inertia values.  The data was entered into a data frame and plotted to an elbow curve to identify the best value for K.  The results identified the optimal value to K to be four.    
 <br>
 <img src="Readme Pics/Pic 4.png" width="700" height="300">
 
-The model was set up using the optimal four clusters, fit to the original scaled data, and was run to predict the crypto clusters.  Finally, the predicted clusters were added to the data frame and a scatter plot was used to view the results.  The results showed a reasonable correlation between clusters zero (blue), cluster one (red) and cluster two (gold), with cluster three (green) located far the left of the main cluster.        
+A model instance was initiated using the optimal four clusters, fit to the original scaled data, and run to predict the crypto clusters.  Finally, the predicted clusters were added to the data frame and a scatter plot was used to view the results.  The results showed a reasonable correlation between clusters zero (blue), cluster one (red) and cluster two (gold), with cluster three (green) located far the left of the main cluster.        
 <br>
 <img src="Readme Pics/Pic 5.png" width="1000" height="200">
 <img src="Readme Pics/Pic 6.png" width="700" height="300">
 <br>
 
 ## Crypto Clustering with PCA 
-For the PCA analysis, pca.fit _transform was used on the original scaled data to manipulate it into three principal components.  After checking the variance ratio for the newly aligned data, these three groups were shown to represent 89.5% of the variance of the data set.  
+For the PCA analysis, pca.fit _transform was used on the original scaled data to manipulate it into three principal components.  After checking the variance ratio for the newly aligned data, these three groups were shown to represent 89.5% of the variance of the data set with a 10.5% variance loss.
 
 <br>
 <img src="Readme Pics/PCA Pic 1.png" width="400" height="200">
 <img src="Readme Pics/PCA Pic 7.png" width="400" height="50">
 
 
-To identify the best value for K for the PCA data, a list of integers one to ten and an empty list for the inertia values was initiated, a for-loop was used to cycle through the scaled PCA data, fit to the model to the scaled data, and store the inertia values. This data was then plotted to an elbow curve to identify the best value for K.  The ideal value for K was again identified as four.
+To identify the best value for K for the PCA data, a list of integers and an empty list for the inertia values was initiated, a for-loop was used to cycle through the scaled PCA data, fit to the model to the scaled data, and store the inertia values. This data was then plotted to an elbow curve to identify the best value for K.  The ideal value for K was again identified as four.
 
 <br>
 <img src="Readme Pics/PCA Pic 2.png" width="700" height="300">
@@ -62,7 +62,7 @@ When examining the two elbow curves, the results share similar characteristics a
 <img src="Readme Pics/Compare Pic 1.png" width="1000" height="300">
 
 
-The two scatter plots produced results with shared commonalities and exposed some differences.  In the image below, clusters zero (blue) and cluster two (gold) produced similar results in both graphs.  Both clusters maintained a consistent range on the X and Y axis, and both produced a small amount of overlap between the two clusters.  The differences between the two scatterplots can be seen in clusters one (red) and cluster three (green). In the K-Means Scatter Plot cluster one (red) is located near cluster zero (blue), while cluster three (green) is located far to the left of the main cluster.  In the PCA Scatter plot cluster one(red) has changed locations placing it up and to the right of the main cluster.  Another difference can be seen in the relocation of cluster three (green).  In the K-Means Scatter Plot cluster three (green) was far to the left of the main cluster, whereas in the PCA Scatter plot, cluster three (green) is located to the right of the main cluster.  One potential cause for these changes may be due to the 10.5% loss of variance that occurred during the PCA process.  It is also notable that cluster one (red) and cluster three (green) both composed of only one node in the plot, so a smaller sample may make the clusters susceptible to wider result fluctuations.  
+The two scatter plots produced mixed results showing commonalities and exposed some differences.  In the images below, clusters zero (blue) and cluster two (gold) produced similar results in both graphs.  Both clusters maintained a consistent range on the X and Y axis, and both produced a small amount of overlap between the two clusters.  The differences between the two scatterplots can be seen in clusters one (red) and cluster three (green). In the K-Means Scatter Plot cluster one (red) is located near cluster zero (blue), while cluster three (green) is located far to the left of the main cluster.  In the PCA Scatter plot cluster one(red) has changed locations placing it up and to the right of the main cluster. In the K-Means Scatter plot cluster three (green) was located to the left of the main cluster, whereas in the PCA Scatter plot, cluster three (green) is located far to the right of the main cluster.  One potential cause for these changes may be due to the 10.5% loss of variance that occurred during the PCA process.  It is also notable that cluster one (red) and cluster three (green) are both composed of only one node in the plot representing a smaller cluster size which may be more susceptible to wider result fluctuations.  
 
 <br>
 <img src="Readme Pics/Compare Pic 2.png" width="1000" height="300">
