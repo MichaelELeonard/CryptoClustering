@@ -21,6 +21,7 @@ To start the analysis, the data needed to be scaled to ensure consistency throug
 <img src="Readme Pics/Pic 3.png" width="1000" height="200">
 
 Next, the best value for K needed to be calculated.  This was accomplished setting up a list of incrementing numbers and creating an empty list to hold the inertia values.  A for-loop was set up to process through the cluster options, fit scaled model to the scaled data, and store the inertia values.  The data was entered into a data frame and plotted to an elbow curve to identify the best value for K.  the results identified the optimal value to K to be four.    
+
 <br>
 <img src="Readme Pics/Pic 4.png" width="700" height="300">
 
@@ -39,7 +40,7 @@ For the PCA analysis, pca.fit _transform was used on the original scaled data to
 <br>
 <img src="Readme Pics/PCA Pic 7.png" width="400" height="50">
 
-
+<br>
 The best value for K for the PCA data needed to be calculated. As seen previously, this was accomplished setting up a list of numbers from one to ten, creating an empty list for the inertia values, looping through the scaled PCA data, fitting to the model to the scaled data and storing the inertia values. This data was then plotted into an elbow curve to identify the best value for K.  The ideal value for K was again identified as four.
 
 <br>
