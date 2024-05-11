@@ -54,14 +54,14 @@ The crtypto PCA clusters were then added to the PCA dataframe and the results we
 
 ## Results/Comparison
 
-Whem examinging the two elbow curves,  the results share common traits.  Both charts display simmilar graphical attributs and identify four being show as the optional number for clusters.  
+Whem examinging the two elbow curves,  the results share common traits.  Both charts display simmilar graphical attributs and identify four being show as the optional number for clusters.    
 
 <br>
 
 <img src="Readme Pics/Compare Pic 1.png" width="1000" height="300">
 
 
-
+The two scatter plots from the model results shared commonalities and expressed differences.  In both scatter plots clusters 0 and 2 produces simmilar results.  Both clusters shared a simmular     
 
 
 <img src="Readme Pics/Compare Pic 2.png" width="1000" height="300">
