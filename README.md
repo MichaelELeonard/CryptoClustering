@@ -40,7 +40,7 @@ The best value for K for the PCA data needed to be calculated. As seen previousl
 
 <br>
 <img src="Readme Pics/PCA Pic 2.png" width="700" height="300">
-
+<br>
 
 
 
