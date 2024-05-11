@@ -55,7 +55,7 @@ The cluster results were added to the PCA data frame and it was used to produce 
 
 ## Results/Comparison
 
-When examining the two elbow curves, the results share similar characteristics and both identified four as the optional number for K.    
+When examining the two elbow curves, the results share similar characteristics and both graphs identified the optimal number for K as four.    
 
 <br>
 
