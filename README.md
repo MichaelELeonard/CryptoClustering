@@ -43,7 +43,6 @@ The best value for K for the PCA data needed to be calculated. As seen previousl
 <img src="Readme Pics/PCA Pic 2.png" width="700" height="300">
 
 
-
 The crtypto PCA clusters were then added to the PCA dataframe and the results were used to produce a scatter plot of rhw PCA data labeled PCA Scatter Plot.  
 
 <br>
@@ -53,16 +52,18 @@ The crtypto PCA clusters were then added to the PCA dataframe and the results we
 <br>
 
 
-
-
-
 ## Results/Comparison
 
-
+Whem examinging the two elbow curves,  the results a very simmilar.  Both charts share the same graphical attributs, with four being show as the optional number for clusters.  
 
 <br>
 
 <img src="Readme Pics/Compare Pic 1.png" width="1000" height="300">
+
+
+
+
+
 <img src="Readme Pics/Compare Pic 2.png" width="1000" height="300">
 
 
