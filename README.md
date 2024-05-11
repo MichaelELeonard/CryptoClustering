@@ -38,13 +38,13 @@ For the PCA analysis, pca.fit _transform was used on the original scaled data to
 <img src="Readme Pics/PCA Pic 7.png" width="400" height="50">
 
 
-To identify the best value for K for the PCA data, a list of integers one to ten and an empty list for the inertia values was initiated, a for-looping was used to cycle through the scaled PCA data, fit to the model to the scaled data, and store the inertia values. This data was then plotted into an elbow curve to identify the best value for K.  The ideal value for K was again identified as four.
+To identify the best value for K for the PCA data, a list of integers one to ten and an empty list for the inertia values was initiated, a for-loop was used to cycle through the scaled PCA data, fit to the model to the scaled data, and store the inertia values. This data was then plotted to an elbow curve to identify the best value for K.  The ideal value for K was again identified as four.
 
 <br>
 <img src="Readme Pics/PCA Pic 2.png" width="700" height="300">
 
 
-The crypto PCA cluster ticker names were added to the PCA data frame, and the results were used to produce a scatter plot of the PCA scatter plot below.
+The cluster results were added to the PCA data frame, and were used to produce a scatter plot below.
 
 <br>
 <img src="Readme Pics/PCA Pic 3.png" width="400" height="200">
@@ -55,14 +55,14 @@ The crypto PCA cluster ticker names were added to the PCA data frame, and the re
 
 ## Results/Comparison
 
-When examining the two elbow curves, the results share common characteristics, and both identified four as the optional number for K.    
+When examining the two elbow curves, the results share similar characteristics and both identified four as the optional number for K.    
 
 <br>
 
 <img src="Readme Pics/Compare Pic 1.png" width="1000" height="300">
 
 
-The two scatter plots produced from the data results shared commonalities and exposed some differences.  As can be seen below, clusters zero (blue) and cluster two (gold) produce similar results in both graphs.  Both clusters displayed a consistent range on the X and Y axis, and both displayed a small amount of overlap between the two clusters.  The differences between the two scatterplots can be seen in clusters one (red) and cluster three (green). In the K-Means Scatter Plot cluster one (red) is located near cluster zero (blue), and cluster three (green) is located far to the left of all the plotted clusters.  In the PCA Scatter plot cluster one(red) has changed locations placing it up and to the right placing it far outside the main cluster.  One other difference can be in the relocation of cluster three (green).  In the K-Means Scatter Plot cluster three (green) was far to the left of the main cluster, whereas in the PCA Scatter plot, cluster three (green) is located far to the right of the main cluster.  One potential cause for the change in the PCA scatter plot may be due to the 10.5% loss of variance that occurred during the PCA process.  It is also notable that cluster one (red) and cluster three (green) both composed of only one location in the plot, so the smaller sample may be susceptible to wider result fluctuations.  
+The two scatter plots produced results with shared commonalities and exposed some differences.  In the image below, clusters zero (blue) and cluster two (gold) produced similar results in both graphs.  Both clusters maintained a consistent range on the X and Y axis, and both produced a small amount of overlap between the two clusters.  The differences between the two scatterplots can be seen in clusters one (red) and cluster three (green). In the K-Means Scatter Plot cluster one (red) is located near cluster zero (blue), while cluster three (green) is located far to the left of the main cluster.  In the PCA Scatter plot cluster one(red) has changed locations placing it up and to the right of the main cluster.  Another difference can be seen in the relocation of cluster three (green).  In the K-Means Scatter Plot cluster three (green) was far to the left of the main cluster, whereas in the PCA Scatter plot, cluster three (green) is located to the right of the main cluster.  One potential cause for these changes may be due to the 10.5% loss of variance that occurred during the PCA process.  It is also notable that cluster one (red) and cluster three (green) both composed of only one node in the plot, so a smaller sample may make the clusters susceptible to wider result fluctuations.  
 
 <br>
 <img src="Readme Pics/Compare Pic 2.png" width="1000" height="300">
