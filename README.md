@@ -24,7 +24,7 @@ Next, the best value for K needed to be calculated.  This was accomplished setti
 <br>
 <img src="Readme Pics/Pic 4.png" width="700" height="300">
 
-The model was set up using the optimal four clusters, fit to the original scaled data, and was run to predict the crypto clusters.  Finally, the predicted clusters were added to the data frame and a scatter plot was used to view the results.  The results showed a reasonable correlation between clusters 0, 1, and 2, with cluster 3 located far the left of the main cluster.        
+The model was set up using the optimal four clusters, fit to the original scaled data, and was run to predict the crypto clusters.  Finally, the predicted clusters were added to the data frame and a scatter plot was used to view the results.  The results showed a reasonable correlation between clusters zero (blue), cluster one (red) and cluster two (gold), with cluster three (green) located far the left of the main cluster.        
 <br>
 <img src="Readme Pics/Pic 5.png" width="1000" height="200">
 <img src="Readme Pics/Pic 6.png" width="700" height="300">
@@ -37,7 +37,7 @@ For the PCA analysis, pca.fit _transform was used on the original scaled data to
 <img src="Readme Pics/PCA Pic 1.png" width="400" height="200">
 
 <br>
-<img src="Readme Pics/PCA Pic 7.png" width="400" height="200">
+<img src="Readme Pics/PCA Pic 7.png" width="400" height="100">
 
 
 The best value for K for the PCA data, a list of integers one to ten and an empty list for the inertia values was initiated, a for-looping was used to cycle through the scaled PCA data, fit to the model to the scaled data, and store the inertia values. This data was then plotted into an elbow curve to identify the best value for K.  The ideal value for K was again identified as four.
