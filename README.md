@@ -1,4 +1,4 @@
-# Week 19 Challenge - Crypto Clustering
+ 19 Challenge - Crypto Clustering
 
 <img src="Readme Pics/Opening Pic.png" width="1000" height="300">
 
@@ -37,13 +37,13 @@ For the PCA analysis, pca.fit _transform was used on the original scaled data to
 <img src="Readme Pics/PCA Pic 1.png" width="400" height="200">
 
 
-The best value for K for the PCA data needed to be calculated. As seen previously, this was accomplished setting up a list of numbers from one to ten, creating an empty list for the inertia values, loopin through scaled PCA date, fitting to the model to the scaled data and append the inertia values to the inertia list. This data was then plotted into an elbow curve to identify the best value for K.  The ideal value for K was again identified as four.
+The best value for K for the PCA data needed to be calculated. As seen previously, this was accomplished setting up a list of numbers from one to ten, creating an empty list for the inertia values, looping through scaled PCA date, fitting to the model to the scaled data and append the inertia values to the inertia list. This data was then plotted into an elbow curve to identify the best value for K.  The ideal value for K was again identified as four.
 
 <br>
 <img src="Readme Pics/PCA Pic 2.png" width="700" height="300">
 
 
-The crtypto PCA clusters were then added to the PCA dataframe and the results were used to produce a scatter plot of rhw PCA data labeled PCA Scatter Plot.  
+The crypto PCA clusters were then added to the PCA data frame and the results were used to produce a scatter plot of the PCA data labeled PCA Scatter Plot.  
 
 <br>
 <img src="Readme Pics/PCA Pic 3.png" width="400" height="200">
@@ -54,18 +54,14 @@ The crtypto PCA clusters were then added to the PCA dataframe and the results we
 
 ## Results/Comparison
 
-Whem examinging the two elbow curves,  the results share common traits.  Both charts display simmilar graphical attributs and identify four being show as the optional number for clusters.    
+When examining the two elbow curves, the results share common traits.  Both charts display similar graphical attributes and identify four being shown as the optional number for clusters.    
 
 <br>
 
 <img src="Readme Pics/Compare Pic 1.png" width="1000" height="300">
 
 
-The two scatter plots from the model results shared commonalities and expressed differences.  In both scatter plots clusters 0 and 2 produces simmilar results.  Both clusters shared a simmular     
+The two scatter plots from the model results shared commonalities and expressed differences.  As can be seen below, clusters 0 and 2 produce similar results.  Both clusters displayed a consistent range on the X and Y axis, a small amount of overlap between the two clusters.  The differences between the two scatterplots can be seen in clusters one and three. In the K-Means Scatter Plot cluster one has similar proportionality to cluster zero, and cluster three is located far to the left of all the plotted clusters.  In the PCA Scatter plot cluster one has changed locations placing it up and to the right placing it far about the main cluster and is not the cluster that is located farthest to the right on the X axis.  One potential cause for the PCA scatter plot changes to cluster one and three could be due to the 10.5% loss of variance that occurred during the PCA process.  It is also notable that both of clusters one and three are composed on only a single location in the plot, so changes in the model may cause wider fluctuations in the results.               
 
 
 <img src="Readme Pics/Compare Pic 2.png" width="1000" height="300">
-
-
-
-## Conclusion
