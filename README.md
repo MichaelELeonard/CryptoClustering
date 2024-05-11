@@ -35,8 +35,6 @@ For the PCA analysis, pca.fit _transform was used on the original scaled data to
 
 <br>
 <img src="Readme Pics/PCA Pic 1.png" width="400" height="200">
-
-<br>
 <img src="Readme Pics/PCA Pic 7.png" width="400" height="50">
 
 
