@@ -41,13 +41,13 @@ For the PCA analysis, pca.fit _transform was used on the original scaled data to
 To identify the best value for K for the PCA data, an integer list and an empty list to hold inertia values was created, a for-loop was used to cycle through the PCA data, fit to the model to the scaled data, and store the inertia values. This data was then plotted to an elbow curve to identify the best value for K.  The ideal value for K was again identified as four.
 
 <br>
-<img src="Readme Pics/PCA Pic 2.png" width="700" height="300">
+<img src="Readme Pics/PCA Pic 2.png" width="581" height="248">
 
 
 The cluster results were added to the PCA data frame and it was used to produce a scatter plot below.  In the PCA scatter plot cluster zero (blue) and cluster two (gold) are producing similar results while cluster one (red) and three (green) have been relocated to different areas on the graph. 
 
 <br>
-<img src="Readme Pics/PCA Pic 3.png" width="400" height="200">
+<img src="Readme Pics/PCA Pic 3.png" width="437" height="182">
 <img src="Readme Pics/PCA Pic 4.png" width="700" height="300">
 
 <br>
