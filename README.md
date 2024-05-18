@@ -9,7 +9,7 @@ In the Crypto Clustering Challenge, we were tasked to use Unsupervised Learning 
 
 <br>
 <img src="Readme Pics/Pic 1.png" width="1502" height="324">
-<img src="Readme Pics/Pic 2.png" width="1502" height="324">
+<img src="Readme Pics/Pic 2.png" width="671" height="336">
 <br>
 
 
