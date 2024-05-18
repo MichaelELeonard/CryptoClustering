@@ -8,8 +8,8 @@
 In the Crypto Clustering Challenge, we were tasked to use Unsupervised Learning Models to predict how cryptocurrencies will be affected by 24-hour or 7-day price changes.  This was accomplished by completing a K-Means and PCA analysis and comparing the results.  The original data was provided in a .csv file labeled crypto_market_data and was imported to a data frame for analysis.  The initial data frame output and line graph representing the data can be seen below.     
 
 <br>
-<img src="Readme Pics/Pic 1.png" width="1000" height="300">
-<img src="Readme Pics/Pic 2.png" width="800" height="400">
+<img src="Readme Pics/Pic 1.png" width="1502" height="324">
+<img src="Readme Pics/Pic 2.png" width="671" height="336">
 <br>
 
 
@@ -18,16 +18,16 @@ In the Crypto Clustering Challenge, we were tasked to use Unsupervised Learning 
 To start the analysis, the data needed to be scaled to ensure consistency throughout the data set.  This was accomplished by using StandardScaler which is available in the scikit-learn library.  An example of the scaled data can be seen below.   
 
 <br>
-<img src="Readme Pics/Pic 3.png" width="1000" height="200">
+<img src="Readme Pics/Pic 3.png" width="1481" height="185">
 
 Next, the best value for K needed to be calculated.  This was accomplished setting up a list of incrementing numbers and creating an empty list to hold the inertia values.  A for-loop was set up to process through the cluster options, fit the model to the scaled data, and store the inertia values.  The data was entered into a data frame and plotted to an elbow curve to identify the best value for K.  The results identified the optimal value to K to be four.    
 <br>
-<img src="Readme Pics/Pic 4.png" width="700" height="300">
+<img src="Readme Pics/Pic 4.png" width="585" height="252">
 
 A model instance was initiated using the optimal four clusters, fit to the original scaled data, and run to predict the crypto clusters.  Finally, the predicted clusters were added to the data frame and a scatter plot was used to view the results.  The results showed a reasonable correlation between clusters zero (blue), cluster one (red) and cluster two (gold), with cluster three (green) located far the left of the main cluster.        
 <br>
-<img src="Readme Pics/Pic 5.png" width="1000" height="200">
-<img src="Readme Pics/Pic 6.png" width="700" height="300">
+<img src="Readme Pics/Pic 5.png" width="1594" height="205">
+<img src="Readme Pics/Pic 6.png" width="585" height="252">
 <br>
 
 ## Crypto Clustering with PCA 
