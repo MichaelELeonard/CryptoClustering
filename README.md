@@ -48,7 +48,7 @@ The cluster results were added to the PCA data frame and it was used to produce 
 
 <br>
 <img src="Readme Pics/PCA Pic 3.png" width="437" height="182">
-<img src="Readme Pics/PCA Pic 4.png" width="700" height="300">
+<img src="Readme Pics/PCA Pic 4.png" width="580" height="249">
 
 <br>
 
@@ -59,11 +59,11 @@ When examining the two elbow curves, the results share similar characteristics a
 
 <br>
 
-<img src="Readme Pics/Compare Pic 1.png" width="1000" height="300">
+<img src="Readme Pics/Compare Pic 1.png" width="1166" height="249">
 
 
 The two scatter plots produced mixed results showing commonalities and exposing some differences.  In the images below, clusters zero (blue) and cluster two (gold) produced similar results in both graphs.  Both clusters maintained a consistent range on the X and Y axis, and both produced a small amount of overlap between the two clusters.  The differences between the two scatterplots can be seen in clusters one (red) and cluster three (green). In the K-Means Scatter Plot cluster one (red) is located near cluster zero (blue), while cluster three (green) is located far to the left of the main cluster.  In the PCA Scatter plot cluster one (red) has changed locations placing it up and to the right of the main cluster and cluster three (green) is now located far to the right of the main cluster.  One potential cause for these changes may be due to the 10.5% loss of variance that occurred during the PCA process.  It is also notable that cluster one (red) and cluster three (green) are both comprised of only one node representing a smaller cluster size.  This reduced cluster size could lead to wider fluctuations in data results when comparing across multiple models.   
 
 <br>
-<img src="Readme Pics/Compare Pic 2.png" width="1000" height="300">
+<img src="Readme Pics/Compare Pic 2.png" width="1158" height="245">
 
