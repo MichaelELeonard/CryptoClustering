@@ -26,8 +26,8 @@ Next, the best value for K needed to be calculated.  This was accomplished setti
 
 A model instance was initiated using the optimal four clusters, fit to the original scaled data, and run to predict the crypto clusters.  Finally, the predicted clusters were added to the data frame and a scatter plot was used to view the results.  The results showed a reasonable correlation between clusters zero (blue), cluster one (red) and cluster two (gold), with cluster three (green) located far the left of the main cluster.        
 <br>
-<img src="Readme Pics/Pic 5.png" width="1000" height="200">
-<img src="Readme Pics/Pic 6.png" width="700" height="300">
+<img src="Readme Pics/Pic 5.png" width="1594" height="205">
+<img src="Readme Pics/Pic 6.png" width="585" height="252">
 <br>
 
 ## Crypto Clustering with PCA 
