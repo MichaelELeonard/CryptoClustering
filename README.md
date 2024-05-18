@@ -44,7 +44,7 @@ To identify the best value for K for the PCA data, an integer list and an empty 
 <img src="Readme Pics/PCA Pic 2.png" width="581" height="248">
 
 
-The cluster results were added to the PCA data frame and it was used to produce a scatter plot below.  In the PCA scatter plot cluster zero (blue) and cluster two (gold) are producing similar results while cluster one (red) and three (green) have been relocated to different areas on the graph. 
+The cluster results were added to the PCA data frame and it was used to produce a scatter plot below.  In the PCA scatter plot cluster zero (blue) and cluster one (red) are producing similar results while cluster two (gold) and three (green) have been relocated to different areas on the graph. 
 
 <br>
 <img src="Readme Pics/PCA Pic 3.png" width="437" height="182">
@@ -62,10 +62,8 @@ When examining the two elbow curves, the results share similar characteristics a
 <img src="Readme Pics/Compare Pic 1.png" width="1166" height="249">
 
 
-The two scatter plots produced mixed results showing commonalities and exposing some differences.  In 
-
-
-In both the images seen below two cluster groups comprise the main cluster, but in the K-Means plot the main cluster is made up of cluster two (gold) and cluster zero (blue) whereas the main cluster in the PCA plot is made up of cluster zero (blue) and cluster one (red).  Both main clusters maintained a consistent range on the X and Y axis, and both produced a small amount of overlap between the two clusters.  Another difference between the two scatterplots can be seen with cluster three (green).  In the K-Means Scatter Plot cluster three (green) is located far to the left of the main cluster while in the PCA Scatter plot cluster three (green) is now located far to the right of the main cluster.  One potential cause for these changes may be due to the 10.5% loss of variance that occurred during the PCA process.  It is also notable that two of the clusters in each plot are comprised of only one node representing a smaller cluster size.  This reduced cluster size could lead to wider fluctuations in data results when comparing across multiple models.   
+The two scatter plots produced mixed results showing commonalities and exposing some differences.  In both the images seen below two cluster groups comprise the main cluster, but in the K-Means plot the main cluster is made up of cluster two (gold) and cluster zero (blue) whereas the main cluster in the PCA plot is made up of cluster zero (blue) and cluster one (red).  Both main clusters maintained a consistent range on the X and Y axis, and both produced a small amount of overlap between the two clusters.  Another difference between the two scatterplots can be seen with cluster three (green).  In the K-Means Scatter Plot cluster three (green) is located far to the left of the main cluster while in the PCA Scatter plot cluster three (green) is now located far to the right of the main cluster.  One potential cause for these changes may be due to the 10.5% loss of variance that occurred during the PCA process.  It is also notable that two of the clusters in each plot are comprised of only one node representing a smaller cluster size.  This reduced cluster size could lead to wider fluctuations in data results when comparing across multiple models.   
 
 <br>
 <img src="Readme Pics/Compare Pic 2.png" width="1158" height="245">
+
