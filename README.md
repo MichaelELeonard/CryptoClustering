@@ -34,8 +34,8 @@ A model instance was initiated using the optimal four clusters, fit to the origi
 For the PCA analysis, pca.fit _transform was used on the original scaled data to manipulate it into three principal components.  After checking the variance ratio for the newly aligned data, these three groups were shown to represent 89.5% of the variance of the data set with a 10.5% variance loss.
 
 <br>
-<img src="Readme Pics/PCA Pic 1.png" width="400" height="200">
-<img src="Readme Pics/PCA Pic 7.png" width="400" height="50">
+<img src="Readme Pics/PCA Pic 1.png" width="303" height="47">
+<img src="Readme Pics/PCA Pic 7.png" width="348" height="178">
 
 
 To identify the best value for K for the PCA data, an integer list and an empty list to hold inertia values was created, a for-loop was used to cycle through the PCA data, fit to the model to the scaled data, and store the inertia values. This data was then plotted to an elbow curve to identify the best value for K.  The ideal value for K was again identified as four.
