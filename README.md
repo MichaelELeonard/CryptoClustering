@@ -34,8 +34,8 @@ A model instance was initiated using the optimal four clusters, fit to the origi
 For the PCA analysis, pca.fit _transform was used on the original scaled data to manipulate it into three principal components.  After checking the variance ratio for the newly aligned data, these three groups were shown to represent 88.9% of the variance of the data set with a 11.1% variance loss.
 
 <br>
-<img src="Readme Pics/PCA Pic 1.png" width="303" height="178">
-<img src="Readme Pics/PCA Pic 7.png" width="348" height="47">
+<img src="Readme Pics/PCA Pic 1.png" width="385" height="114">
+<img src="Readme Pics/PCA Pic 7.png" width="327" height="40">
 
 
 To identify the best value for K for the PCA data, an integer list and an empty list to hold inertia values was created, a for-loop was used to cycle through the PCA data, fit to the model to the scaled data, and store the inertia values. This data was then plotted to an elbow curve to identify the best value for K.  The ideal value for K was again identified as four.
@@ -47,8 +47,8 @@ To identify the best value for K for the PCA data, an integer list and an empty 
 The cluster results were added to the PCA data frame and it was used to produce a scatter plot below.  In the PCA scatter plot cluster zero (blue) and cluster one (red) are producing similar results while cluster two (gold) and three (green) have been relocated far to the right side of the main cluster. 
 
 <br>
-<img src="Readme Pics/PCA Pic 3.png" width="437" height="182">
-<img src="Readme Pics/PCA Pic 4.png" width="580" height="249">
+<img src="Readme Pics/PCA Pic 3.png" width="436" height="186">
+<img src="Readme Pics/PCA Pic 4.png" width="582" height="247">
 
 <br>
 
@@ -65,5 +65,5 @@ When examining the two elbow curves, the results share similar characteristics w
 The two scatter plots produced mixed results showing commonalities and exposing some differences.  In both the images two cluster groups comprise the main cluster, but in the K-Means plot the main cluster is made up of cluster two (gold) and cluster zero (blue) whereas the main cluster in the PCA plot is made up of cluster zero (blue) and cluster one (red).  Both main clusters maintained a consistent range on the X and Y axis, and both produced a small amount of overlap between the two clusters.  Another difference between the two scatterplots can be seen with cluster three (green).  In the K-Means Scatter Plot cluster three (green) is located far to the left of the main cluster while in the PCA Scatter plot cluster three (green) is now located far to the right of the main cluster.  One potential cause for these changes may be due to the 11.1% loss of variance that occurred during the PCA process.  It is also notable that two of the clusters in each plot are comprised of only one node representing a smaller cluster size.  This reduced cluster size could lead to wider fluctuations in data results when comparing across multiple models.   
 
 <br>
-<img src="Readme Pics/Compare Pic 2.png" width="1158" height="245">
+<img src="Readme Pics/Compare Pic 2.png" width="1163" height="247">
 
