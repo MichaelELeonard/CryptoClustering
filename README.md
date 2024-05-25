@@ -22,7 +22,7 @@ To start the analysis, the data needed to be scaled to ensure consistency throug
 
 Next, the best value for K needed to be calculated.  This was accomplished setting up a list of incrementing numbers and creating an empty list to hold the inertia values.  A for-loop was set up to process through the cluster options, fit the model to the scaled data, and store the inertia values.  The data was entered into a data frame and plotted to an elbow curve to identify the best value for K.  The results identified the optimal value to K to be four.    
 <br>
-<img src="Readme Pics/Pic 4.png" width="585" height="252">
+<img src="Readme Pics/Pic 4.png" width="584" height="252">
 
 A model instance was initiated using the optimal four clusters, fit to the original scaled data, and run to predict the crypto clusters.  Finally, the predicted clusters were added to the data frame and a scatter plot was used to view the results.  The results showed a reasonable correlation between clusters zero (blue), cluster one (red) and cluster two (gold), with cluster three (green) located far the left of the main cluster.        
 <br>
