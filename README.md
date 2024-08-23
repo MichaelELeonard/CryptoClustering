@@ -1,6 +1,6 @@
 <img src="Readme Pics/Opening Pic.png" width="1000" height="300">
 
-# Unsupervised Learning Modeling - Crypto Clustering
+# Unsupervised Machine Learning - Crypto Clustering
 
 Unsupervised Learning Modeling code - https://github.com/MichaelELeonard/CryptoClustering/blob/main/Crypto_Clustering_working.ipynb
 
