@@ -35,8 +35,8 @@ A model instance was initiated using the optimal four clusters, fit to the origi
 ## Crypto Clustering with PCA 
 For the PCA analysis, pca.fit _transform was used on the original scaled data to manipulate it into three principal components.  After checking the variance ratio for the newly aligned data, the three groups were shown to represent 89.49% of the variance of the dataset with a 10.51% variance loss.
 
-<img src="Readme Pics/PCA Pic 1.png" width="385" height="114">
-<img src="Readme Pics/PCA Pic 7.png" width="327" height="40">
+<img src="Readme Pics/PCA Three Components.png" width="385" height="114">
+<img src="Readme Pics/PCA Three Component Variance.png" width="327" height="40">
 
 
 To identify the best value for K for the PCA data, the data was plotted to an elbow curve for analysis.  The ideal value for K was identified as four.
