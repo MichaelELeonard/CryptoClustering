@@ -23,7 +23,7 @@ To start the analysis, the data needed to be scaled to ensure consistency throug
 <br>
 <img src="Readme Pics/Pic 3.png" width="1481" height="185">
 
-Next, the best value for K needed to be calculated.  The data was entered into a data frame and plotted to an elbow curve to identify the best value for K.  The results identified the optimal value to K to be four.    
+Next, the best value for K needed to be calculated.  The data was entered into a dataframe and plotted to an elbow curve to identify the best value for K.  The results identified the optimal value to K to be four.    
 <br>
 <img src="Readme Pics/Pic 4.png" width="584" height="252">
 
