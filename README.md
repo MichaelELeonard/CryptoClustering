@@ -20,7 +20,6 @@ In the Crypto Clustering Challenge, we were tasked to use Unsupervised Learning 
 
 To start the analysis, the data needed to be scaled to ensure consistency throughout the data set.  This was accomplished by using StandardScaler which is available in the scikit-learn library.  An example of the scaled data can be seen below.   
 
-<br>
 <img src="Readme Pics/Pic 3.png" width="1481" height="185">
 
 Next, the best value for K needed to be calculated.  The data was entered into a DataFrame and plotted to an elbow curve to identify the best value for K.  The results identified the optimal value to K to be four.    
@@ -36,7 +35,6 @@ A model instance was initiated using the optimal four clusters, fit to the origi
 ## Crypto Clustering with PCA 
 For the PCA analysis, pca.fit _transform was used on the original scaled data to manipulate it into three principal components.  After checking the variance ratio for the newly aligned data, these three groups were shown to represent 89.49% of the variance of the data set with a 10.5% variance loss.
 
-<br>
 <img src="Readme Pics/PCA Pic 1.png" width="385" height="114">
 <img src="Readme Pics/PCA Pic 7.png" width="327" height="40">
 
