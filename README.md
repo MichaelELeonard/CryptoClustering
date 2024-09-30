@@ -47,8 +47,6 @@ The cluster results were added to the PCA DataFrame and it was used to produce a
 <img src="Readme Pics/PCA Three Components with Clusters.png" width="436" height="186">
 <img src="Readme Pics/PCA Scatter.png" width="581" height="248">
 
-<br>
-
 
 ## Results/Comparison
 
