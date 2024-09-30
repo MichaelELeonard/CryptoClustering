@@ -60,7 +60,7 @@ When examining the two elbow curves, the results share similar characteristics w
 
 <br>
 
-<img src="Readme Pics/Compare Pic 1.png" width="1166" height="249">
+<img src="Readme Pics/Compare Elbow.png" width="1166" height="249">
 
 
 The two scatter plots produced mixed results showing commonalities and exposing some differences.  In both scatter plot images, the gold and blue clusters comprise the main cluster and show similar results between the two plots.  Both main clusters maintained a consistent range on the X and Y axis, and both produced a small amount of overlap between the two clusters.  The main difference between the two scatterplots can be seen with the location of red and green clusters.  In the K-Means plot the green cluster is located far to the left of the main cluster while the red cluster was in the lower half of the main cluster.  In the PCA scatterplot, the red cluster has been located above and to the right of the main cluster while the green cluster is located to the right of the main cluster.  One potential cause for this result may be due to the 10.5% loss of variance that occurred during the PCA process.  It is also notable that the red and green clusters are each comprised of only one node, representing a small cluster size.  This reduced cluster size could lead to wider fluctuations in data results when comparing across multiple models.   
