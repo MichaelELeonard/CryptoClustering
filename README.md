@@ -27,7 +27,7 @@ Next, the best value for K needed to be calculated.  The data was entered into a
 <br>
 <img src="Readme Pics/Pic 4.png" width="584" height="252">
 
-A model instance was initiated using the optimal four clusters, fit to the original scaled data, and run to predict the crypto clusters.  Finally, the predicted clusters were added to the DataFrame and a scatter plot was used to view the results.  The results showed a reasonable correlation between clusters zero (blue), one (red) and two (gold), with cluster three (green) located far the left of the main cluster.        
+A model instance was initiated using the optimal four clusters, fit to the original scaled data, and run to predict the crypto clusters.  Finally, the predicted clusters were added to the DataFrame and a scatter plot was used to view the results.  The results showed a reasonable correlation between the blue, red and gold clusters, with the green cluster located far the left of the main cluster.        
 <br>
 <img src="Readme Pics/Pic 5.png" width="1594" height="205">
 <img src="Readme Pics/Pic 6.png" width="585" height="252">
