@@ -39,7 +39,7 @@ For the PCA analysis, pca.fit _transform was used on the original scaled data to
 <img src="Readme Pics/PCA Pic 7.png" width="327" height="40">
 
 
-To identify the best value for K for the PCA data, the data was plotted to an elbow curve for analysis.  The ideal value for K was again identified as four.
+To identify the best value for K for the PCA data, the data was plotted to an elbow curve for analysis.  The ideal value for K was identified as four.
 
 <br>
 <img src="Readme Pics/PCA Pic 2.png" width="581" height="248">
