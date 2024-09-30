@@ -4,8 +4,6 @@
 
 [Unsupervised Learning Modeling Code Link]( https://github.com/MichaelELeonard/CryptoClustering/blob/main/Crypto_Clustering_working.ipynb)
 
-<br>
-
 ## Original Data
 
 In the Unsupervised Machine Learning Challenge, we were tasked to predict how cryptocurrencies will be affected by 24-hour or 7-day price changes.  This was accomplished by completing a K-Means and PCA analysis and comparing the results.  The original data was provided in a .csv file and was imported to a DataFrame for analysis.  The initial DataFrame output and line graph representing the data can be seen below.     
@@ -13,7 +11,6 @@ In the Unsupervised Machine Learning Challenge, we were tasked to predict how cr
 <br>
 <img src="Readme Pics/Original Data.png" width="1201" height="259">
 <img src="Readme Pics/Original Data Graph.png" width="671" height="336">
-<br>
 
 
 ## Crypto Clustering with K-MEANS
@@ -41,7 +38,6 @@ For the PCA analysis, pca.fit _transform was used on the original scaled data to
 
 To identify the best value for K for the PCA data, the data was plotted to an elbow curve for analysis.  The ideal value for K was identified as four.
 
-<br>
 <img src="Readme Pics/PCA Elbow.png" width="587" height="252">
 
 
