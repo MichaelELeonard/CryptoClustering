@@ -18,7 +18,7 @@ In the Unsupervised Machine Learning Challenge, we were tasked to predict how cr
 
 ## Crypto Clustering with K-MEANS
 
-To start the analysis, the data needed to be scaled to ensure consistency throughout the data set.  This was accomplished by using StandardScaler which is available in the scikit-learn library.  An example of the scaled data can be seen below.   
+To start the analysis, the data needed to be scaled to ensure consistency throughout the dataset.  This was accomplished by using StandardScaler which is available in the scikit-learn library.  An example of the scaled data can be seen below.   
 
 <img src="Readme Pics/Pic 3.png" width="1481" height="185">
 
@@ -33,7 +33,7 @@ A model instance was initiated using the optimal four clusters, fit to the origi
 <br>
 
 ## Crypto Clustering with PCA 
-For the PCA analysis, pca.fit _transform was used on the original scaled data to manipulate it into three principal components.  After checking the variance ratio for the newly aligned data, the three groups were shown to represent 89.49% of the variance of the data set with a 10.51% variance loss.
+For the PCA analysis, pca.fit _transform was used on the original scaled data to manipulate it into three principal components.  After checking the variance ratio for the newly aligned data, the three groups were shown to represent 89.49% of the variance of the dataset with a 10.51% variance loss.
 
 <img src="Readme Pics/PCA Pic 1.png" width="385" height="114">
 <img src="Readme Pics/PCA Pic 7.png" width="327" height="40">
