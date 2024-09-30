@@ -8,7 +8,7 @@
 
 ## Original Data
 
-In the Crypto Clustering Challenge, we were tasked to use Unsupervised Learning Modeling to predict how cryptocurrencies will be affected by 24-hour or 7-day price changes.  This was accomplished by completing a K-Means and PCA analysis and comparing the results.  The original data was provided in a .csv file and was imported to a data frame for analysis.  The initial dataframe output and line graph representing the data can be seen below.     
+In the Crypto Clustering Challenge, we were tasked to use Unsupervised Learning Modeling to predict how cryptocurrencies will be affected by 24-hour or 7-day price changes.  This was accomplished by completing a K-Means and PCA analysis and comparing the results.  The original data was provided in a .csv file and was imported to a DataFrame for analysis.  The initial DataFrame output and line graph representing the data can be seen below.     
 
 <br>
 <img src="Readme Pics/Pic 1.png" width="1502" height="324">
@@ -23,11 +23,11 @@ To start the analysis, the data needed to be scaled to ensure consistency throug
 <br>
 <img src="Readme Pics/Pic 3.png" width="1481" height="185">
 
-Next, the best value for K needed to be calculated.  The data was entered into a dataframe and plotted to an elbow curve to identify the best value for K.  The results identified the optimal value to K to be four.    
+Next, the best value for K needed to be calculated.  The data was entered into a DataFrame and plotted to an elbow curve to identify the best value for K.  The results identified the optimal value to K to be four.    
 <br>
 <img src="Readme Pics/Pic 4.png" width="584" height="252">
 
-A model instance was initiated using the optimal four clusters, fit to the original scaled data, and run to predict the crypto clusters.  Finally, the predicted clusters were added to the dataframe and a scatter plot was used to view the results.  The results showed a reasonable correlation between clusters zero (blue), one (red) and two (gold), with cluster three (green) located far the left of the main cluster.        
+A model instance was initiated using the optimal four clusters, fit to the original scaled data, and run to predict the crypto clusters.  Finally, the predicted clusters were added to the DataFrame and a scatter plot was used to view the results.  The results showed a reasonable correlation between clusters zero (blue), one (red) and two (gold), with cluster three (green) located far the left of the main cluster.        
 <br>
 <img src="Readme Pics/Pic 5.png" width="1594" height="205">
 <img src="Readme Pics/Pic 6.png" width="585" height="252">
@@ -47,7 +47,7 @@ To identify the best value for K for the PCA data, an integer list and an empty 
 <img src="Readme Pics/PCA Pic 2.png" width="581" height="248">
 
 
-The cluster results were added to the PCA data frame and it was used to produce a scatter plot below.  In the PCA scatter plot cluster two (gold) and cluster zero (blue) are producing similar results while cluster one (red) and three (green) have been relocated far to the right side of the main cluster. 
+The cluster results were added to the PCA DataFrame and it was used to produce a scatter plot below.  In the PCA scatter plot cluster two (gold) and cluster zero (blue) are producing similar results while cluster one (red) and three (green) have been relocated far to the right side of the main cluster. 
 
 <br>
 <img src="Readme Pics/PCA Pic 3.png" width="436" height="186">
