@@ -48,8 +48,8 @@ To identify the best value for K for the PCA data, the data was plotted to an el
 The cluster results were added to the PCA DataFrame and it was used to produce a scatter plot below.  In the PCA scatter plot, the gold and blue clusters are produced similar results while the red and green clusters are to the right of the main cluster. 
 
 <br>
-<img src="Readme Pics/PCA Pic 3.png" width="436" height="186">
-<img src="Readme Pics/PCA Pic 4.png" width="582" height="247">
+<img src="Readme Pics/PCA Three Components with Clusters.png" width="436" height="186">
+<img src="Readme Pics/PCA Scatter.png" width="581" height="248">
 
 <br>
 
