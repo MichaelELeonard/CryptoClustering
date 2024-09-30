@@ -28,7 +28,7 @@ Next, the best value for K needed to be calculated.  The data was entered into a
 
 A model instance was initiated using the optimal four clusters, fit to the original scaled data, and run to predict the crypto clusters.  Finally, the predicted clusters were added to the DataFrame and a scatter plot was used to view the results.  The results showed a reasonable correlation between the blue, red and gold clusters, with the green cluster located to the left of the main cluster.        
 <br>
-<img src="Readme Pics/Scaled data with Predicted Clusters.png" width="1594" height="205">
+<img src="Readme Pics/Scaled data with Predicted Clusters.png" width="1275" height="164">
 <img src="Readme Pics/K-Means Scatter.png" width="579" height="245">
 <br>
 
