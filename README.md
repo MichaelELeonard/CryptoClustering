@@ -42,7 +42,7 @@ For the PCA analysis, pca.fit _transform was used on the original scaled data to
 To identify the best value for K for the PCA data, the data was plotted to an elbow curve for analysis.  The ideal value for K was identified as four.
 
 <br>
-<img src="Readme Pics/PCA Pic 2.png" width="581" height="248">
+<img src="Readme Pics/PCA Elbow.png" width="587" height="252">
 
 
 The cluster results were added to the PCA DataFrame and it was used to produce a scatter plot below.  In the PCA scatter plot, the gold and blue clusters are produced similar results while the red and green clusters are to the right of the main cluster. 
