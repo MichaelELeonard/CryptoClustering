@@ -20,11 +20,11 @@ In the Unsupervised Machine Learning Challenge, we were tasked to predict how cr
 
 To start the analysis, the data needed to be scaled to ensure consistency throughout the dataset.  This was accomplished by using StandardScaler which is available in the scikit-learn library.  An example of the scaled data can be seen below.   
 
-<img src="Readme Pics/Pic 3.png" width="1481" height="185">
+<img src="Readme Pics/Scaled data.png" width="1481" height="185">
 
 Next, the best value for K needed to be calculated.  The data was entered into a DataFrame and plotted to an elbow curve to identify the best value for K.  The results identified the optimal value to K to be four.    
 <br>
-<img src="Readme Pics/Pic 4.png" width="584" height="252">
+<img src="Readme Pics/K-Means Elbow.png" width="585" height="252">
 
 A model instance was initiated using the optimal four clusters, fit to the original scaled data, and run to predict the crypto clusters.  Finally, the predicted clusters were added to the DataFrame and a scatter plot was used to view the results.  The results showed a reasonable correlation between the blue, red and gold clusters, with the green cluster located to the left of the main cluster.        
 <br>
