@@ -11,7 +11,7 @@
 In the Unsupervised Machine Learning Challenge, we were tasked to predict how cryptocurrencies will be affected by 24-hour or 7-day price changes.  This was accomplished by completing a K-Means and PCA analysis and comparing the results.  The original data was provided in a .csv file and was imported to a DataFrame for analysis.  The initial DataFrame output and line graph representing the data can be seen below.     
 
 <br>
-<img src="Readme Pics/Original Data.png" width="1502" height="324">
+<img src="Readme Pics/Original Data.png" width="1201" height="259">
 <img src="Readme Pics/Original Data Graph.png" width="671" height="336">
 <br>
 
