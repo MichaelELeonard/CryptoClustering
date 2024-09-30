@@ -20,7 +20,7 @@ In the Unsupervised Machine Learning Challenge, we were tasked to predict how cr
 
 To start the analysis, the data needed to be scaled to ensure consistency throughout the dataset.  This was accomplished by using StandardScaler which is available in the scikit-learn library.  An example of the scaled data can be seen below.   
 
-<img src="Readme Pics/Scaled data.png" width="1481" height="185">
+<img src="Readme Pics/Scaled data.png" width="1184" height="148">
 
 Next, the best value for K needed to be calculated.  The data was entered into a DataFrame and plotted to an elbow curve to identify the best value for K.  The results identified the optimal value to K to be four.    
 <br>
