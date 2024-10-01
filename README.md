@@ -1,4 +1,4 @@
-<img src="Readme Pics/Header.png" width="851" height="408">
+<img src="Readme Pics/Header.png" width="817" height="392">
 
 # Unsupervised Machine Learning
 
