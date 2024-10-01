@@ -2,7 +2,7 @@
 
 # Unsupervised Machine Learning
 
-[Unsupervised Learning Modeling Code Link]( https://github.com/MichaelELeonard/CryptoClustering/blob/main/Crypto_Clustering_working.ipynb)
+[Unsupervised Machine Learning Code Link]( https://github.com/MichaelELeonard/CryptoClustering/blob/main/Crypto_Clustering_working.ipynb)
 
 ## Original Data
 
